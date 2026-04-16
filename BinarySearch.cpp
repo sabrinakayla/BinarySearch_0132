@@ -7,13 +7,24 @@ int x;
 
 void input()
 {
-    while (true)
-    cout << "MAsukkan banyaknya ekemen pada array (maksimal 10): ";
-    cin >> nPanjang;
-
-    if (nPanjang <= 10)
+    while(true)
     {
-    
-    }
+        cout << "Masukkan banyaknya elemen pada array (maksimal 10): ";
+        cin >> nPanjang;
 
-}
+        if (nPanjang <= 10)
+        {
+            break;
+        }
+        else
+        {
+            cout << "\n[!] Jumlah elemen tidak boleh lebih dari 10. Silakan coba lagi.\n";
+        }
+    }
+    
+cout << "\n=======================================\n";
+cout << "\n         Masukkan Elemen Array         \n";
+cout << "\n=======================================\n";
+
+
+
